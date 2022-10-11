@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test constructores",
+      "setup": "",
+      "run": "gradle test --tests *TestConstructores",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test abstractos",
+      "setup": "",
+      "run": "gradle test --tests *TestAbstracto",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test toString",
+      "setup": "",
+      "run": "gradle test --tests *TestToString",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
